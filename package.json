@@ -13,5 +13,9 @@
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^7.17.0",
+    "pokemon-font": "^1.8.1"
+  }
 }
