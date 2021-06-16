@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-      <h1>クチート</h1>
+      <h1>バチンキー</h1>
+      <h1>unownhunownaunownlunownlunowno</h1>
     </div>
 </template>
 
@@ -9,14 +10,13 @@
 </script>
 
 <style　scoped>
-.container {
-  font-size: 10px;
-  font-smooth: never;
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+h1{
+  font-size: 100px;
   -webkit-font-smoothing: none;
   font-family: "pokemon-font", monospace;
-}
-
-h1{
-  font-size: 120px;
 }
 </style>

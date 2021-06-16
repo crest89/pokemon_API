@@ -5,10 +5,4 @@
 </template>
 
 <style>
-  body {
-    font-size: 10px;
-    font-smooth: never;
-    -webkit-font-smoothing: none;
-    font-family: "pokemon-font", monospace;
-  }
 </style>

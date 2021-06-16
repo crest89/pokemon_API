@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'pokemon_api',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
@@ -19,11 +19,14 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/destyle.css'],
+  css: [ {src:'@/assets/css/destyle.css'},
+         {src: '~/assets/css/pokemonfont'}
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
+
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
